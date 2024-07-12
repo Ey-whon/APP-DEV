@@ -381,24 +381,31 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
           ),
           DefaultTextStyle(
             style: TextStyle(
-              color: Colors.black,
+              color: const Color.fromARGB(255, 250, 130, 130),
             ),
             child: Column(
               children: [
                 Text(' '),
-                Text('Describe Your Interest:'),
+                Text(''),
+                Text('INTERESTS: '),
+                Text(''),
+                Text(''),
                 DefaultTextStyle(
                   style: TextStyle(
-                    color: Color.fromARGB(255, 250, 130, 130),
+                    color: Color.fromARGB(255, 0, 0, 0),
                   ),
                   child: Column(
                     children: [
-                      Text(''),
-                      Text('Playing Sports'),
-                      Text(''),
-                      Text('Playing Online games'),
-                      Text(''),
-                      Text('watching Movies'),
+                      Text(
+                          'As a business analytics student with a keen interest in information technology, my professional interests focus on leveraging data-driven '),
+                      Text(
+                          'strategies to optimize business operations and decision-making processes. I specialize in predictive analytics, data visualization, and IT project management.'),
+                      Text(
+                          ' My research is centered around the integration of advanced analytics techniques in business intelligence systems to enhance organizational performance.'),
+                      Text(
+                          'Notably, I have worked on projects such as developing a predictive model for customer churn analysis and implementing a business dashboard for real-time performance monitoring.'),
+                      Text(
+                          'My findings have been presented at industry conferences and published in several academic journals.'),
                       Text(''),
                     ],
                   ),

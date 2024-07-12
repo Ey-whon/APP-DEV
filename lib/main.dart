@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'PERSONAL DETAILS',
+          ' ',
           style: TextStyle(
               color: Color.fromARGB(245, 9, 0, 12)), // Set text color to white
         ),

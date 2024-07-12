@@ -451,12 +451,34 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                           ],
                         ),
                       ),
+                      DefaultTextStyle(
+                        style: TextStyle(
+                          color: Colors.black,
+                        ),
+                        child: Column(
+                          children: [
+                            Text(' '),
+                            Text('Facebook:'),
+                            DefaultTextStyle(
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 250, 130, 130),
+                              ),
+                              child: Column(
+                                children: [
+                                  Text('Ron Aaron Bagui'),
+                                  Text(''),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
-                ),
+                )
               ],
             ),
-          )
+          ),
         ],
       ),
     );
